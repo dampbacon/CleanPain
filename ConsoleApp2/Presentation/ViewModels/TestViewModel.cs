@@ -28,8 +28,12 @@ namespace ScopedVmBundleClean
         }
 
 
-        /* An option if we don't want the presenters to have vm logicS
+        /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+         * An option if we don't want the presenters to have vm logic
          * 
+         * We could also if we really wanted to do IObservable/streams If the presentation state of something is shared between screens
+         * Reusing presenters that aren't concrete to the view model
+         * @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
          
         private void OnLoadText()
         {
