@@ -31,8 +31,10 @@ namespace ScopedVmBundleClean
         /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
          * An option if we don't want the presenters to have vm logic
          * 
-         * We could also if we really wanted to do IObservable/streams If the presentation state of something is shared between screens
-         * Reusing presenters that aren't concrete to the view model
+         * We could also if we really wanted to do IObservable/streams If the presentation state of something is shared between screensw
+         * Reusing presenters that aren't concrete to the view model 
+         * 
+         * https://www.nuget.org/packages/System.Reactive DotNet Foundation
          * @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
          
         private void OnLoadText()
